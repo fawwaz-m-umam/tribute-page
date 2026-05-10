@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2dede;
+  color: #290202;
+  font-size: 15px;
+}
+
+header {
+  background: #6c4343;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+p,
+ul,
+li {
+  margin-bottom: 15px;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  color: #5f0a0a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+main .wrap {
+  max-width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+main .wrap > * {
+  flex: 1 1 450px;
+}
+
+#img-div {
+  max-width: 300px;
+  height: max-content;
+  max-height: max-content;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 5px solid rgba(87, 54, 54, 0.793);
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  padding: 5px;
+  text-align: center;
+  background: #573636;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline-section {
+  margin-bottom: 60px;
+}
+
+.timeline-title {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  color: #3b0909;
+  border-left: 5px solid #5a0d0d;
+  padding-left: 12px;
+}
+
+.timeline-section .timeline-events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.timeline-section .timeline-event {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: rgba(182, 157, 157, 0.35);
+  padding: 22px;
+  border-radius: 14px;
+  position: relative;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-section .timeline-event:hover {
+  transform: translateY(-6px);
+  background: rgba(182, 157, 157, 0.5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  cursor: default;
+}
+
+.timeline-event strong {
+  font-size: 1.05em;
+  color: #5a0d0d;
+}
