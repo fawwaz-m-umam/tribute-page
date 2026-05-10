@@ -32,4 +32,9 @@ The page is designed using HTML and CSS with a responsive layout to ensure it wo
 
 This project was built to complete the **Tribute Page Certification Project** from FreeCodeCamp:
 
-[FreeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/?utm_source=chatgpt.com)
+[FreeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+
+## ✨ Author
+
+Created by **Fawwaz Musytaqul Umam**  
+For the FreeCodeCamp Certification Project.
